@@ -1,0 +1,75 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Speech text */
+.speech {
+    font-size: 16px;
+    color: black;
+}
+
+/* Stage directions */
+.stage-direction {
+    font-style: italic;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.stage-direction:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+/* Character name styling */
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    display: inline-block; /* Ensures border works properly */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.name:hover {
+    text-shadow: 3px 3px 5px red;
+    border: 3px solid blue;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/* Character-specific colors */
+.pericles {
+    color: red;
+}
+
+.fisherman1 {
+    color: blue;
+}
+
+.fisherman2 {
+    color: green;
+}
+
+.fisherman3 {
+    color: purple;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
