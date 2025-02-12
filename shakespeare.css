@@ -28,7 +28,7 @@ body {
     font-weight: bold;
     color: black;
     padding: 5px;
-    display: inline-block; /* Ensures border works properly */
+    display: inline-block;
     transition: all 0.3s ease-in-out;
 }
 
@@ -72,4 +72,35 @@ th, td {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+/* Navbar */
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: yellow;
 }
